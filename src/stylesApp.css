@@ -1,0 +1,22 @@
+.users {
+    width: 300px;
+}
+.innerContainer {
+    display: flex;
+    gap: 40px;
+}
+.user__section {
+    padding: 5px;
+}
+.user {
+    font-size: 19px;
+    cursor: pointer;
+    padding: 5px;
+}
+.user__name {
+    margin: 3px 0;
+}
+
+.user:hover {
+    outline: 1px solid rgb(255, 253, 253);
+}
